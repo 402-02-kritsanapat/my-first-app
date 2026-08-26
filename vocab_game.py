@@ -100,7 +100,7 @@ st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 st.session_state.ans2_val = ans3
-    "ข้อ 1: An `B _ _n a` a day keeps the doctor away. 🍌",
+    "ข้อ 1: An `B _ _ a n a` a day keeps the doctor away. 🍌",
     value=st.session_state.ans3_val,
 st.session_state.ans2_val = ans4
     "ข้อ 1: An `L _ m o _` a day keeps the doctor away. 🍋",
