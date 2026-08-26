@@ -100,10 +100,10 @@ st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 st.session_state.ans2_val = ans3
-    "ข้อ 3: An `Ba_a_a` a day keeps the doctor away. 🍌",
+    "ข้อ 3: I love to eat `Ba_a_a` . 🍌",
     value=st.session_state.ans3_val,
 st.session_state.ans2_val = ans4
-    "ข้อ 4: An `L_mo_` a day keeps the doctor away. 🍋",
+    "ข้อ 4: I love to eat `L_mo_` . 🍋",
     value=st.session_state.ans4_val,
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
