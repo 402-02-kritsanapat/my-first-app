@@ -99,10 +99,10 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-ans1 = st.text_input(
+ans3 = st.text_input(
     "ข้อ 1: An `B _ _n a` a day keeps the doctor away. 🍌",
     value=st.session_state.ans3_val,
-ans1 = st.text_input(
+ans4 = st.text_input(
     "ข้อ 1: An `L _ m o _` a day keeps the doctor away. 🍋",
     value=st.session_state.ans4_val,
 # 4. ปุ่มส่งคำตอบ
